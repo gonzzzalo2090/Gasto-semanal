@@ -45,9 +45,15 @@ a {
 
 footer{
   text-align: center;
-  margin: 5rem;
+  margin: 2rem;
   font-size: 1.5rem;
   background-color: #9df4f8;
   border-radius: 5rem;
+}
+
+@media (max-width: 570px) { 
+  footer {
+    font-size: 1.2rem;
+  }
 }
 
